@@ -1,0 +1,98 @@
+---
+---
+
+@import "minimal-mistakes/skins/air";
+@import "minimal-mistakes";
+
+body {
+  background-color: #faf9f6;
+  color: #292929;
+}
+
+.page__content {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05em;
+  line-height: 1.75;
+}
+
+.home-intro {
+  padding: 5rem 0 4rem;
+  border-bottom: 1px solid #d8d4cd;
+  margin-bottom: 4rem;
+}
+
+.home-intro h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3.8rem;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.8rem;
+}
+
+.subtitle {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               Arial, sans-serif;
+  font-size: 1.05rem;
+  color: #77716b;
+  letter-spacing: 0.03em;
+}
+
+.page__content h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #292929;
+  margin-top: 3.5rem;
+}
+
+.home-link a {
+  color: #A51C30;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               Arial, sans-serif;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.home-link a:hover {
+  text-decoration: underline;
+}
+
+.masthead {
+  background: #faf9f6;
+  border-bottom: 1px solid #d8d4cd;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               Arial, sans-serif;
+  color: #444;
+  letter-spacing: 0.02em;
+}
+
+.site-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: normal;
+}
+
+.page__footer {
+  background: #292929;
+  color: #ddd;
+}
+
+@media (max-width: 600px) {
+  .home-intro {
+    padding: 3rem 0 2.5rem;
+  }
+
+  .home-intro h1 {
+    font-size: 2.8rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+}
