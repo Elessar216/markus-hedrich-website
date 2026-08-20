@@ -2,6 +2,8 @@
 layout: splash
 title: ""
 permalink: /
+classes: wide
+author_profile: false
 ---
 
 <div class="home-intro">
